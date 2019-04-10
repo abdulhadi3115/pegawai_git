@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Sistem Kepegawaian</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="main_container">
@@ -23,5 +24,18 @@ switch ($page) {
 }
 ?>
 </div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript"src= "//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+<script>
+
+	$(document).ready( function () {
+    	$('#tabel').DataTable();
+} );
+
+</script>
 </body>
 </html>
