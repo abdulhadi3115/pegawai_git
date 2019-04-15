@@ -2,21 +2,21 @@
 include "koneksi.php";
 ?>
 <div id="content">
-	<h2 align="center">Data Personel</h2>
-	<a href="index.php?page=input"><input type="button" name="" value=" Input Data "/></a> 
-	<table width="100%"  id="tabel">
+	<!-- <h2 align="center">Data Personel</h2> -->
+	<a href="index.php?page=input"class="btn btn-primary"><input type="button" value="Tambah Data"></a> 
+	<table width="100%" border="1" id="tabel">
 <thead>
 	<tr>
 		<th width="4%">No</td>
 		<th width="18%">NIP</td>
 		<th width="18%">Nama</td>
-		<th width="14%">Tgl Lahir</td>
-		<th width="15%">Jenis Kelamin</td>
-		<th width="22%">Alamat</td>
+		<th width="18%">Tgl Lahir</td>
+		<th width="12%">Jenis Kelamin</td>
+		<th width="19%">Alamat</td>
 		<th width="10%">Foto</td>
 		<th width="6%">Action</td>
 	</tr>
-</thead>>
+</thead>
 <tbody>
 	<?php
 	$no = 1;
